@@ -12,7 +12,7 @@ export default function Projects() {
               A simple calculator built using HTML, CSS, and JavaScript. This project was created to practice my skills in JavaScript and DOM manipulation. The calculator can perform basic arithmetic operations and has a clean and user-friendly interface.
             </p>
             <div className="d-flex justify-content-center">
-            <button style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</button>
+            <a href='https://github.com/lokeshjaglan001/Calculator' style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</a>
             </div>
           </div>
           <div className="card p-3 m-3" style={{width:'18rem',backgroundColor:'var(--color-2)',color:'var(--color-3)'}}>
@@ -21,7 +21,7 @@ export default function Projects() {
               My personal portfolio website built using React. This project showcases my skills, projects, and contact information. I designed and developed this website from scratch to highlight my work and provide a platform for others to connect with me.
             </p>
             <div className="d-flex justify-content-center">
-            <button style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</button>
+            <a href='https://github.com/humanshu001/My-Portfolio' style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</a>
             </div>
           </div>
         </div>

@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color-1: #2c2e3a;
+    --color-2: #b3b4bd;
+    --color-3: #141619;
+    --color-4: #0a21c0;
+}
+*{
+    font-family: Quicksand;
+}
+body{
+    background-color: var(--color-2);
+    color: var(--color-3);
+}
+
+html::-webkit-scrollbar{
+    width: 6px;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--color-1);
+}
+
+html::-webkit-scrollbar-track{
+    background-color: var(--color-2);
+}
+
+.name{
+    font-size: 60px;
+    color: var(--color-1);
+}
+
+.navbar-toggler-icon{
+    background-image: none;
+}
+
+.nav-toggle{
+    display: none;
+    background-color: var(--color-1);
+    padding: 10px;
+}
+
+.content{
+    border-radius: 10px;
+    animation: get-visible 0.5s ease;
+}
+
+@keyframes get-visible{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.navbar{
+    background-color: var(--color-1)!important;
+}
+
+.nav-link, .navbar-brand{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--color-2);
+    &:hover{
+        color: var(--color-2);
+    }
+    &:active{
+        color: var(--color-2);
+    }
+    &:focus{
+        color: var(--color-2);
+    }
+}
+
+.skills svg{
+    width: 100%;
+}
+
+@media screen and (max-width: 991px){
+    .nav-toggle{
+        display: block;
+    }
+    
+}
+
+
+@media screen and (max-width: 1100px){
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about img{
+        width: 100%;
+    }
+    .mobile-full{
+        width: 80%;
+    }
+    .name{
+        font-size: 50px;
+        padding: 20px;
+    }
+    .skills div, .skills a{
+        width: 30%!important;
+        margin: 10px!important;
+    }
+    .skills {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .banner{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .banner svg{
+        width: 250px;
+    }
+}
+
+
+
+.rotate svg{
+    animation: rotate 7s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

@@ -15,15 +15,27 @@ export default function Projects() {
             <a href='https://github.com/lokeshjaglan001/Calculator' style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</a>
             </div>
           </div>
+          
           <div className="card p-3 m-3" style={{width:'18rem',backgroundColor:'var(--color-2)',color:'var(--color-3)'}}>
             <h2 className='mb-4 text-center' style={{color:'var(--color-4)',fontWeight:700}}>Portfolio Website</h2>
             <p>
               My personal portfolio website built using React. This project showcases my skills, projects, and contact information. I designed and developed this website from scratch to highlight my work and provide a platform for others to connect with me.
             </p>
             <div className="d-flex justify-content-center">
-            <a href='https://github.com/humanshu001/My-Portfolio' style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</a>
+            <a href='https://github.com/lokeshjaglan001/My-Portfolio' style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</a>
             </div>
           </div>
+
+          <div className="card p-3 m-3" style={{width:'18rem',backgroundColor:'var(--color-2)',color:'var(--color-3)'}}>
+            <h2 className='mb-4 text-center' style={{color:'var(--color-4)',fontWeight:700}}>To Do List App</h2>
+            <p>
+              SimpleToDo is a minimalist to-do list web application built using HTML, CSS, and JavaScript. It allows users to efficiently manage tasks by adding, deleting, marking as completed or incomplete, and filtering tasks based on their status. A clean and intuitive interface ensures seamless task management for enhanced productivity.
+            </p>
+            <div className="d-flex justify-content-center">
+            <a href='https://github.com/lokeshjaglan001/To-Do-List-App' style={{color:'var(--color-2)',backgroundColor:'var(--color-1)'}} className='col-md-8 btn'>Code ↗</a>
+            </div>
+          </div>
+          
         </div>
       </div>
     </>

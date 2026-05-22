@@ -139,3 +139,33 @@ html::-webkit-scrollbar-track{
         transform: rotate(360deg);
     }
 }
+
+.skill-card:hover{
+  transform: translateY(-8px) scale(1.03);
+  cursor: pointer;
+}
+
+.contact-icon{
+  background-color: var(--color-2);
+  width: 90px;
+  height: 90px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.contact-icon i{
+  font-size: 40px;
+  color: #0a21c0;
+}
+
+.contact-icon:hover{
+  transform: translateY(-5px) scale(1.05);
+}
+
+.form-control::placeholder{
+  color: rgba(255,255,255,0.6);
+}

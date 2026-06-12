@@ -259,7 +259,7 @@ export default function Projects() {
               Vortex
             </h2>
 
-            <p style={{lineHeight:'1.8'}}>
+            <p style={{ lineHeight: '1.8' }}>
               Vortex is an AI platform currently under development
               where users can bring their own AI API keys and continue
               using the platform seamlessly. It supports multiple AI
@@ -281,7 +281,7 @@ export default function Projects() {
                 }}
                 className='btn px-4 py-2 col-md-8'
               >
-                GitHub 
+                GitHub
               </a>
 
               <button
@@ -290,6 +290,56 @@ export default function Projects() {
                   backgroundColor: '#3654FF',
                   borderRadius: '10px',
                   border: 'none',
+                }}
+                className='btn px-3 py-2'
+              >
+                Under Development
+              </button>
+
+            </div>
+
+          </div>
+
+          {/* Polymarket Prediction Platform */}
+          <div
+            className="card p-4 m-3"
+            style={{
+              width: '20rem',
+              backgroundColor: 'var(--color-2)',
+              color: 'var(--color-3)',
+              borderRadius: '6px',
+              border: 'none',
+              boxShadow: '0 5px 15px rgba(0,0,0,0.2)'
+            }}
+          >
+
+            <h2
+              className='mb-4 text-center'
+              style={{
+                color: 'var(--color-4)',
+                fontWeight: 700
+              }}
+            >
+              Polymarket Platform
+            </h2>
+
+            <p style={{ lineHeight: '1.8' }}>
+              A decentralized prediction market platform under development
+              that enables users to trade on real-world events.
+              Built using Next.js, NestJS, PostgreSQL, Redis,
+              Socket.IO, BullMQ, and Solidity smart contracts
+              with real-time trading and market settlement
+              capabilities.
+            </p>
+
+            <div className="d-flex justify-content-center gap-2 flex-wrap mt-3">
+
+              <button
+                style={{
+                  color: 'black',
+                  backgroundColor: '#3654FF',
+                  borderRadius: '10px',
+                  border: 'none'
                 }}
                 className='btn px-3 py-2'
               >

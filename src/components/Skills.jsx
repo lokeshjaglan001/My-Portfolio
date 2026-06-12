@@ -1,4 +1,7 @@
 import React from 'react'
+import redisIcon from '../assets/redis.svg'
+import bullmqIcon from '../assets/bullmq.svg'
+import socketioIcon from '../assets/socketio.svg'
 
 export default function Skills() {
   const skills = [
@@ -20,6 +23,10 @@ export default function Skills() {
     { name: "Git", icon: "fa-git-alt", type: "brands" },
     { name: "GitHub", icon: "fa-github", type: "brands" },
     { name: "Docker", icon: "fa-docker", type: "brands" },
+    { name: "Redis", img: redisIcon },
+    { name: "BullMQ", img: bullmqIcon },
+    { name: "Socket.IO", img: socketioIcon },
+    
   ]
 
   return (
@@ -57,13 +64,21 @@ export default function Skills() {
                 boxShadow: '0 4px 10px rgba(0,0,0,0.2)'
               }}
             >
-              <i
-                className={`fa-${skill.type} ${skill.icon} fs-1`}
-                style={{
-                  color: '#0a21c0',
-                  marginBottom: '15px'
-                }}
-              ></i>
+              {skill.img ? (
+                <img
+                  src={skill.img}
+                  alt={skill.name}
+                  style={{ width: '48px', height: '48px', marginBottom: '15px' }}
+                />
+              ) : (
+                <i
+                  className={`fa-${skill.type} ${skill.icon} fs-1`}
+                  style={{
+                    color: '#0a21c0',
+                    marginBottom: '15px'
+                  }}
+                ></i>
+              )}
 
               <p
                 className='fw-bold text-center'
